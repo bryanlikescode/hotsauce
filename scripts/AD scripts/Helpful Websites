@@ -6,3 +6,5 @@ Troubleshooting DNS Server:
 https://docs.microsoft.com/en-us/windows-server/networking/dns/troubleshoot/troubleshoot-dns-server
 Enable BitLocker (Hardening the Server):
 https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server
+Configure synchronized time:
+https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/configure-authoritative-time-server
