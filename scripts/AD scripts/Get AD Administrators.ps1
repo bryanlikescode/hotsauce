@@ -1,1 +1,1 @@
-Get-ADGroupMembers -Identity Administrators
+Get-ADGroupMember -Identity Administrators
