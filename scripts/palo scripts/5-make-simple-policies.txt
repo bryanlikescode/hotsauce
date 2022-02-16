@@ -1,27 +1,36 @@
 configure
-set rulebase security rules ICMP from any source any to any destination any application any service ICMP action allow
+delete rulebase security 
 
-set rulebase security rules "Debian NTP DNS" from any source any to InternalZone destination debian application any service DNS action allow
-set rulebase security rules "Debian NTP DNS" from any source any to InternalZone destination debian application any service NTP action allow
+set rulebase security rules "Allow Ping" from any source any to any destination any application icmp service application-default action allow
 
-set rulebase security rules "Ubuntu Web" from any source any to UserZone destination "ubuntu web" application any service HTTP action allow
-set rulebase security rules "Ubuntu Web" from any source any to UserZone destination "ubuntu web" application any service HTTPS action allow
+set rulebase security rules "Block EB" from any source any to any destination any application any service SMB action deny
 
-set rulebase security rules "AD DNS" from any source any to UserZone destination ad application any service DNS action allow
+set rulebase security rules "Debian DNS In" from any source any to Internal destination debian application any service DNS action allow
+set rulebase security rules "Debian DNS Out" from Internal destination debian to External destination any application any service DNS action allow
 
-set rulebase security rules "Centos E-comm" from any source any to PublicZone destination centos application any service HTTP action allow
-set rulebase security rules "Centos E-comm" from any source any to PublicZone destination centos application any service HTTPS action allow
+set rulebase security rules "Ubuntu Web" from any source any to User destination "ubuntu web" application any service HTTP action allow
+set rulebase security rules "Ubuntu Web" from any source any to User destination "ubuntu web" application any service HTTPS action allow
 
-set rulebase security rules "Federoa Mail" from any source any to PublicZone destination fedora application any service SMTP action allow
-set rulebase security rules "Federoa Mail" from any source any to PublicZone destination fedora application any service POP3 action allow
+set rulebase security rules "AD DNS In" from any source any to User destination ad application any service DNS action allow
+set rulebase security rules "AD DNS Out" from User source ad to External destination any application any service DNS action allow
 
-set rulebase security rules "Allow SSH" from any source any to InternalZone destination docker application any service SSH action allow
-set rulebase security rules "Allow SSH" from any source any to UserZone destination "ubuntu web" application any service SSH action allow
-set rulebase security rules "Allow SSH" from any source any to PublicZone destination centos application any service SSH action allow
+set rulebase security rules "Centos E-comm" from any source any to Public destination centos application any service HTTP action allow
+set rulebase security rules "Centos E-comm" from any source any to Public destination centos application any service HTTPS action allow
 
-set rulebase security rules "Allow Intranet" from PublicZone source any to UserZone destination any application any service any action allow
-set rulebase security rules "Allow Intranet" from InternalZone source any to PublicZone destination any application any service any action allow
-set rulebase security rules "Allow Intranet" from UserZone source any to InternalZone destination any application any service any action allow
+set rulebase security rules "Federoa Mail" from any source any to Public destination fedora application any service SMTP action allow
+set rulebase security rules "Federoa Mail" from any source any to Public destination fedora application any service POP3 action allow
 
-set rulebase security rules "BLOCK ALL" from any to any destination any application any service any action deny
+set rulebase security rules "Allow SSH" from any source any to Internal destination docker application any service SSH action allow
+set rulebase security rules "Allow SSH" from any source any to User destination "ubuntu web" application any service SSH action allow
+set rulebase security rules "Allow SSH" from any source any to Public destination centos application any service SSH action allow
+
+set rulebase security rules "Fedora AD Access" from Public source fedora to User destination ad application any service "AD Group" action allow
+
+set rulebase security rules "Internal Splunk" from Internal source any to Public destination splunk application any service Splunk action allow
+set rulebase security rules "Internal Splunk" from User source any to Public destination splunk application any service Splunk action allow
+
+set rulebase security rules "Default Egress" from any source any to External destination any application any service NTP action allow
+set rulebase security rules "Default Egress" from any source any to External destination any application any service HTTP action allow
+set rulebase security rules "Default Egress" from any source any to External destination any application any service HTTPS action allow
+
 exit
