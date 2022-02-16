@@ -11,8 +11,6 @@ set service Splunk2 protocol tcp port 9997
 set service SMTP protocol tcp port 25
 set service POP3 protocol tcp port 110
 set service NTP protocol udp port 123
-set service "ICMP TCP" protocol tcp port 7
-set service "ICMP UDP" protocol udp port 7
 set service "RPC Endpoint TCP" protocol tcp port 135
 set service "RPC Endpoint UDP" protocol udp port 135
 set service "NetBIOS Name TCP" protocol tcp port 137
