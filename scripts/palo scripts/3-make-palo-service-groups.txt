@@ -22,8 +22,6 @@ set service-group "AD Group" member "NetBIOS Name TCP"
 set service-group "AD Group" member "NetBIOS Name UDP"
 set service-group "AD Group" member "NetBIOS Datagram"
 set service-group "AD Group" member "NetBIOS Session"
-set service-group "AD Group" member "SMB over IP TCP"
-set service-group "AD Group" member "SMB over IP UDP"
 set service-group "AD Group" member "LDAP TCP"
 set service-group "AD Group" member "LDAP UDP"
 set service-group "AD Group" member "LDAP SSL"
@@ -35,6 +33,10 @@ set service-group "AD Group" member "WINS Resolution TCP"
 set service-group "AD Group" member "WINS Resolution UDP"
 set service-group "AD Group" member "WINS Replication TCP"
 set service-group "AD Group" member "WINS Replication UDP"
+
+
+set service-group "SMB" member "SMB over IP TCP"
+set service-group "SMB" member "SMB over IP UDP"
 
 set service-group Splunk
 set service-group Splunk member Splunk1
