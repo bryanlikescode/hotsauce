@@ -20,10 +20,6 @@ set rulebase security rules "Centos E-comm" from any source any to Public destin
 set rulebase security rules "Federoa Mail" from any source any to Public destination fedora application any service SMTP action allow
 set rulebase security rules "Federoa Mail" from any source any to Public destination fedora application any service POP3 action allow
 
-set rulebase security rules "Allow SSH" from any source any to Internal destination docker application any service SSH action allow
-set rulebase security rules "Allow SSH" from any source any to User destination "ubuntu web" application any service SSH action allow
-set rulebase security rules "Allow SSH" from any source any to Public destination centos application any service SSH action allow
-
 set rulebase security rules "Fedora AD Access" from Public source fedora to User destination ad application any service "AD Group" action allow
 
 set rulebase security rules "Internal Splunk" from Internal source any to Public destination splunk application any service Splunk action allow
