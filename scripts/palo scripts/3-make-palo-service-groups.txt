@@ -41,8 +41,4 @@ set service-group "SMB" member "SMB over IP UDP"
 set service-group Splunk
 set service-group Splunk member Splunk1
 set service-group Splunk member Splunk2
-
-set service-group ICMP
-set service-group ICMP member "ICMP TCP"
-set service-group ICMP member "ICMP UDP"
 exit
