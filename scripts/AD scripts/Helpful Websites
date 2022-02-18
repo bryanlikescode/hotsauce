@@ -8,5 +8,5 @@ Enable BitLocker (Hardening the Server):
 https://docs.microsoft.com/en-us/windows/security/information-protection/bitlocker/bitlocker-how-to-deploy-on-windows-server
 Configure synchronized time:
 https://docs.microsoft.com/en-us/troubleshoot/windows-server/identity/configure-authoritative-time-server
-IMPORTANT: Download patch for Eternal Blue
+IMPORTANT: Download patch for Eternal Blue (SITE IS MOST LIKELY BLOCKED)
 https://www.catalog.update.microsoft.com/search.aspx?q=kb4012216
