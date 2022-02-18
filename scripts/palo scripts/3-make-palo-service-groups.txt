@@ -2,10 +2,12 @@ configure
 set service-group "Default Egress"
 set service-group "Default Egress" member HTTP
 set service-group "Default Egress" member HTTPS
+set service-group "Default Egress" member NTP
 
 set service-group Mail
 set service-group Mail member SMTP
 set service-group Mail member POP3
+set service-group Mail member IMAP
 
 set service-group DNS
 set service-group DNS member "DNS TCP"
@@ -41,4 +43,5 @@ set service-group "SMB" member "SMB over IP UDP"
 set service-group Splunk
 set service-group Splunk member Splunk1
 set service-group Splunk member Splunk2
+set service-group Splunk member Splunk3
 exit
