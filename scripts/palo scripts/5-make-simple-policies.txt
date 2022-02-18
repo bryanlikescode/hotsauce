@@ -6,7 +6,7 @@ set rulebase security rules "Allow Ping" from any source any to any destination 
 set rulebase security rules "Block EB" from any source any to any destination any application any service SMB action deny
 
 set rulebase security rules "Debian DNS In" from any source any to Internal destination debian application any service DNS action allow
-set rulebase security rules "Debian DNS In" destination debian
+set rulebase security rules "Debian DNS In" destination debian-nat
 set rulebase security rules "Debian DNS Out" from Internal destination debian to External destination any application any service DNS action allow
 
 set rulebase security rules "Ubuntu Web" from any source any to User destination "ubuntu web" application any service HTTP action allow
