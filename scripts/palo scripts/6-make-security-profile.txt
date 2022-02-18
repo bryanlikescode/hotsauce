@@ -47,7 +47,7 @@ set profiles spyware Best_Sec_Policy rules simple-low category any packet-captur
 
 set profiles wildfire-analysis Best_Sec_Policy rules "Send All" application any file-type any direction both analysis public-cloud
 
-set profile-group Best_Practice_Security file-blocking "strict file blocking" spyware Best_Security_Policy virus Best_Sec_Policy vulnerability Best_Sec_Policy url-filtering default wildfire-analysis Best_Sec_Policy
+set profile-group Best_Practice_Security file-blocking "strict file blocking" spyware Best_Sec_Policy virus Best_Sec_Policy vulnerability Best_Sec_Policy url-filtering default wildfire-analysis Best_Sec_Policy
 
 set rulebase security rules "AD DNS In" profile-setting group Best_Security_Policy
 set rulebase security rules "AD DNS Out" profile-setting group Best_Security_Policy
