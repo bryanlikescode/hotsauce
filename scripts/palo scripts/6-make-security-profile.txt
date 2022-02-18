@@ -41,7 +41,7 @@ set profiles spyware Best_Sec_Policy rules simple-high category any packet-captu
 set profiles spyware Best_Sec_Policy rules simple-medium severity medium action reset-both
 set profiles spyware Best_Sec_Policy rules simple-medium category any packet-capture single-packet threat-name any
 set profiles spyware Best_Sec_Policy rules simple-informational severity informational action default
-set profiles spyware Best_Sec_Policy rules simple-informational category any disable single-packet threat-name any
+set profiles spyware Best_Sec_Policy rules simple-informational category any packet-capture disable threat-name any
 set profiles spyware Best_Sec_Policy rules simple-low severity low action default
 set profiles spyware Best_Sec_Policy rules simple-low category any packet-capture disable threat-name any
 
