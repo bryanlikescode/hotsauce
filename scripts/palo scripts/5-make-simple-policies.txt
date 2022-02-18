@@ -8,7 +8,7 @@ set rulebase security rules "Block EB" from any source any to any destination an
 set rulebase security rules "Debian DNS In" from any source any to Internal destination debian application any service DNS action allow
 set rulebase security rules "Debian DNS In" from any source any to Internal destination debian application any service NTP action allow
 set rulebase security rules "Debian DNS In" destination debian-nat
-set rulebase security rules "Debian DNS Out" from Internal destination debian to External destination any application any service DNS action allow
+set rulebase security rules "Debian DNS Out" from Internal source debian to External destination any application any service DNS action allow
 
 set rulebase security rules "Ubuntu Web" from any source any to User destination "ubuntu web" application any service HTTP action allow
 set rulebase security rules "Ubuntu Web" destination "ubuntu web-nat"
