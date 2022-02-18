@@ -49,17 +49,17 @@ set profiles wildfire-analysis Best_Sec_Policy rules "Send All" application any 
 
 set profile-group Best_Practice_Security file-blocking "strict file blocking" spyware Best_Sec_Policy virus Best_Sec_Policy vulnerability Best_Sec_Policy url-filtering default wildfire-analysis Best_Sec_Policy
 
-set rulebase security rules "AD DNS In" profile-setting group Best_Security_Policy
-set rulebase security rules "AD DNS Out" profile-setting group Best_Security_Policy
-set rulebase security rules "Allow Ping" profile-setting group Best_Security_Policy
-set rulebase security rules "Block EB" profile-setting group Best_Security_Policy
-set rulebase security rules "Centos E-comm" profile-setting group Best_Security_Policy
-set rulebase security rules "Debian DNS In" profile-setting group Best_Security_Policy
-set rulebase security rules "Debian DNS Out" profile-setting group Best_Security_Policy
-set rulebase security rules "Default Egress" profile-setting group Best_Security_Policy
-set rulebase security rules "Fedora Mail" profile-setting group Best_Security_Policy
-set rulebase security rules "Fedora AD Access" profile-setting group Best_Security_Policy
-set rulebase security rules "Internal Splunk" profile-setting group Best_Security_Policy
-set rulebase security rules "Ubuntu Web" profile-setting group Best_Security_Policy
+set rulebase security rules "AD DNS In" profile-setting group Best_Practice_Security
+set rulebase security rules "AD DNS Out" profile-setting group Best_Practice_Security
+set rulebase security rules "Allow Ping" profile-setting group Best_Practice_Security
+set rulebase security rules "Block EB" profile-setting group Best_Practice_Security
+set rulebase security rules "Centos E-comm" profile-setting group Best_Practice_Security
+set rulebase security rules "Debian DNS In" profile-setting group Best_Practice_Security
+set rulebase security rules "Debian DNS Out" profile-setting group Best_Practice_Security
+set rulebase security rules "Default Egress" profile-setting group Best_Practice_Security
+set rulebase security rules "Fedora Mail" profile-setting group Best_Practice_Security
+set rulebase security rules "Fedora AD Access" profile-setting group Best_Practice_Security
+set rulebase security rules "Internal Splunk" profile-setting group Best_Practice_Security
+set rulebase security rules "Ubuntu Web" profile-setting group Best_Practice_Security
 
 exit
