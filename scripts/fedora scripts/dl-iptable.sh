@@ -19,5 +19,5 @@ chmod +x list_iptables_rules.sh
 chmod +x master_iptables.sh
 chmod +x restore_iptables_rules.sh
 chmod +x save_iptables_rules.sh
-chmod +x start_iptables_rules.sh
+chmod +x start_iptables_firewall.sh
 chmod +x stop_iptables_firewall.sh
