@@ -1,0 +1,2 @@
+[Net.ServicePointManager]::SecurityProtocol = "tls12, tls11, tls"
+Invoke-WebRequest "https://github.com/~~~~~~~~~~" -OutFile Test.zip
