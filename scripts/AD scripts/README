@@ -1,6 +1,15 @@
 General Walkthrough and tips for securing windows AD 
 (Essential tasks and stuff is listed first. For general tips, see the last paragraph)
 
+Before starting, I want to mention that aside from the Windows-specific tips and steps, everything that is 
+discussed here is useful for any machine/position you have on the team. And if you end up only taking one
+thing away from this file, let it be this: Please (as awkward and uncomfortable as it may be) ask for help 
+if you need it, and if someone is struggling, ask them if they need help. I cannot emphasize how important 
+good teamwork is in this competition. You can be the best/smartest programming/cyber defense/computer science 
+student ever, but if the team isn't working togetheryou will not do well. Take it from me - an accounting major. 
+
+
+
 These first couple steps are interchangeable, but should all be first priority when the competition starts. 
 Injects can wait until these first couple are all complete.
 
@@ -28,7 +37,10 @@ Otherwise, when you have time complete the below tasks.
 - Enable BitLocker. This is also in the services screen.
 
 - Add logon banner (read below before starting this)
-  The below text is what you should use. You can copy and paste this, just make sure to FIX DATE & TEAM NUMBER
+  The below text is what you should use. You can copy and paste this, just make sure to FIX DATE & TEAM NUMBER.
+  Also, if there is an inject asking for this, make sure it includes anything and everything the inject asks for. 
+  This is a super easy task so editing the logon banner is not something we should miss/lose points on. Ask for
+  help if you need any.
   When pasting, windows will not wrap the text on the logon screen, so hit enter every once in a while to 
   "wrap" it yourself. You should also log out and log back in to not only make sure it works, but also grab a
   screenshot so you can make sure it looks good. You may have to log out a couple times for it to kick in:
