@@ -15,14 +15,14 @@ Injects can wait until these first couple are all complete.
 
 - change default Administrator password. Use the guide/password we prepare before the competition.
 
-- configure/activate firewall
+- configure/activate firewall.
 
 - If they are not already (you should check) block ports 445 and 139 completely. Don't allow anything through
   these ports.
   
-- remove unauthorized users, emphasis on unauthorized administrators
+- remove unauthorized users, emphasis on unauthorized administrators.
 
-- restrict administrator priviledges. in "GPO > Administrator Settings"
+- restrict administrator priviledges. In "GPO > Administrator Settings."
   the restriction should only allow administrators to do what is expected. Use common sense.
   
 - Download the github repository. 
@@ -36,7 +36,7 @@ Otherwise, when you have time complete the below tasks.
 
 - Enable BitLocker. This is also in the services screen.
 
-- Add logon banner (read below before starting this)
+- Add logon banner (read the following before starting this).
   The below text is what you should use. You can copy and paste this, just make sure to FIX DATE & TEAM NUMBER.
   Also, if there is an inject asking for this, make sure it includes anything and everything the inject asks for. 
   This is a super easy task so editing the logon banner is not something we should miss/lose points on. Ask for
@@ -53,7 +53,7 @@ Otherwise, when you have time complete the below tasks.
 - Create a password policy. 
   Use common good practice
   
-- NTP Setup
+- NTP Setup.
   There is a PNG of this on github. use it for reference also see the following link
   https://docs.vmware.com/en/VMware-Horizon-DaaS/services/horizondaas.install910/GUID-AEC90E5F-C5B6-447F-B03F-C1060C405E1F.html
 
