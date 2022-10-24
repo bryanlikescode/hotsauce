@@ -9,10 +9,11 @@ Injects can wait until these first couple are all complete.
 - restrict administrator priviledges. in "GPO > Administrator Settings"
   the restriction should only allow administrators to do what is expected. Use common sense.
 - Download the github repository. 
-  In the "AD scripts" folder, open "scripts" and then see the download github file.
+  In the "AD scripts" folder, open "scripts" and then see the "Download GitHub" file for instructions.
+  It works in the practice environment if you want to try it out. Fingers crossed it will work on competition day.
 
-These next few should be done when you have time. Also should probably be done in this order, unless
-an inject specifies one of these to be done immediately.
+These next few should be done when you have time. If an inject comes in, complete it first. 
+Otherwise, when you have time complete the below tasks.
 
 - If they are not already (you should check) block ports 445 and 139 completely. Don't allow anything through
   these ports.
@@ -31,4 +32,10 @@ an inject specifies one of these to be done immediately.
   There is a PNG of this on github. use it for reference also see the following link
   https://docs.vmware.com/en/VMware-Horizon-DaaS/services/horizondaas.install910/GUID-AEC90E5F-C5B6-447F-B03F-C1060C405E1F.html
 - Stop and disable printspooler. This is in the services screen.
-- 
+- Enable BitLocker. This is also in the services screen.
+
+Once these are done, all you should do is focus on injects, help others (please), and every once in a while do a check 
+up on the machine to make sure nothing weird is going on. If there is something else of importance I forgot to note here, 
+feel free to add.
+
+- Jacob
