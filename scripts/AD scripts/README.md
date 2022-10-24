@@ -63,4 +63,4 @@ the trello board as you work. It's very helpful for the entire team to know how 
 keep track of what you're currently working on/what still needs to be done. That goes for any machine you are working
 on. If there is something else of importance I forgot to note here, feel free to add.
 
-Sincerely, Jacob
+Thanks, Jacob
