@@ -51,7 +51,7 @@ Otherwise, when you have time complete the below tasks.
   Updated ##/##/20##
   
 - Create a password policy. 
-  use common good practice
+  Use common good practice
   
 - NTP Setup
   There is a PNG of this on github. use it for reference also see the following link
