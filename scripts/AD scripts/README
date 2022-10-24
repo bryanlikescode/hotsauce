@@ -8,7 +8,8 @@ Injects can wait until these first couple are all complete.
 - remove unauthorized users, emphasis on unauthorized administrators
 - restrict administrator priviledges. in "GPO > Administrator Settings"
   the restriction should only allow administrators to do what is expected. Use common sense.
-- Download the github repository. There's a 
+- Download the github repository. 
+  In the "AD scripts" folder, open "scripts" and then see the download github file.
 
 These next few should be done when you have time. Also should probably be done in this order, unless
 an inject specifies one of these to be done immediately.
