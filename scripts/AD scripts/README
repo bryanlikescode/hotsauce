@@ -1,4 +1,4 @@
-General Walkthrough and tips for securing windows AD 
+# General Walkthrough and tips for securing windows AD 
 (Essential tasks and stuff is listed first. For general tips, see the last paragraph)
 
 Before starting, I want to mention that aside from the Windows-specific tips and steps, everything that is 
@@ -56,7 +56,7 @@ Otherwise, when you have time complete the below tasks.
   There is a PNG of this on github. use it for reference also see the following link
   https://docs.vmware.com/en/VMware-Horizon-DaaS/services/horizondaas.install910/GUID-AEC90E5F-C5B6-447F-B03F-C1060C405E1F.html
 
-TIPS
+## TIPS
 Once these are done, all you should do is focus on injects, help others (please), and every once in a while do a check 
 up on the machine to make sure nothing weird is going on. If we are using trello to keep up with tasks, please update 
 the trello board as you work. It's very helpful for the entire team to know how busy you are, and it also helps you
