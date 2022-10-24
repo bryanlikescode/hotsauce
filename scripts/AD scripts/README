@@ -1,3 +1,33 @@
 General Walkthrough for securing windows AD
 
-walkthrough here
+These first couple are interchangeable, but should all be first priority when the competition starts. 
+Injects can wait until these first couple are all complete.
+
+- change default Administrator password. Use the guide/password we prepare before the competition.
+- configure/activate firewall
+- remove unauthorized users, emphasis on unauthorized administrators
+- restrict administrator priviledges. in "GPO > Administrator Settings"
+  the restriction should only allow administrators to do what is expected. Use common sense.
+- Download the github repository. There's a 
+
+These next few should be done when you have time. Also should probably be done in this order, unless
+an inject specifies one of these to be done immediately.
+
+- If they are not already (you should check) block ports 445 and 139 completely. Don't allow anything through
+  these ports.
+- Add logon banner
+  below text is what you should use. You can copy and paste this, just make sure to FIX DATE & TEAM NUMBER
+  When pasting, windows does not wrap the text on the logon screen, so hit enter every once in a while to 
+  "wrap" it yourself:
+  
+  WARNING
+  This computer network belongs to Team ## and may be used only by Team ## employees only and for approved work-related purposes. Team ## reserves the right to consent to a valid law enforcement request to search the network logs for evidence of a crime stored within the network and can be used to prosecute abuse.
+  Updated 2/19/2022
+  
+- Create a password policy. 
+  use common good practice
+- NTP Setup
+  There is a PNG of this on github. use it for reference also see the following link
+  https://docs.vmware.com/en/VMware-Horizon-DaaS/services/horizondaas.install910/GUID-AEC90E5F-C5B6-447F-B03F-C1060C405E1F.html
+- Stop and disable printspooler. This is in the services screen.
+- 
