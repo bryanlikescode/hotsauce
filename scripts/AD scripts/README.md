@@ -1,5 +1,5 @@
 # General Walkthrough and tips for securing windows AD 
-(Essential tasks and stuff is listed first. For general tips, see the last paragraph)
+(Essential tasks and stuff is listed first. For general tips, see the last section)
 
 Before starting, I want to mention that aside from the Windows-specific tips and steps, everything that is 
 discussed here is useful for any machine/position you have on the team. And if you end up only taking one
