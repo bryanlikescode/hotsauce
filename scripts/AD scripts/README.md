@@ -6,7 +6,7 @@ discussed here is useful for any machine/position you have on the team. And if y
 thing away from this file, let it be this: Please (as awkward and uncomfortable as it may be) ask for help 
 if you need it, and if someone is struggling, ask them if they need help. I cannot emphasize how important 
 good teamwork is in this competition. You can be the best/smartest programming/cyber defense/computer science 
-student ever, but if the team isn't working togetheryou will not do well. Take it from me - an accounting major. 
+student ever, but if the team isn't working together you will not do well. Take it from me - an accounting major. 
 
 
 
@@ -46,6 +46,7 @@ Otherwise, when you have time complete the below tasks.
   screenshot so you can make sure it looks good. You may have to log out a couple times for it to kick in:
   
   WARNING
+  
   This computer network belongs to Team ## and may be used only by Team ## employees only and for approved work-related purposes. Team ## reserves the right to consent to a valid law enforcement request to search the network logs for evidence of a crime stored within the network and can be used to prosecute abuse.
   Updated ##/##/20##
   
